@@ -190,7 +190,7 @@ const handleDrop = useCallback((item, category) => {
           ))}
         </div>
         <div className="game-controls">
-          <button onClick={useHint} disabled={isRoundComplete}>Hint (-5 points)</button>
+          <button onClick={useHint} disabled={isRoundComplete}>Hint</button>
           {isRoundComplete && <button onClick={nextRound}>Next Round</button>}
           <button onClick={onGameEnd}>End Game</button>
         </div>
